@@ -33,12 +33,16 @@ public class Hospital {
 
 	public void agregarPaciente(Paciente paciente) {
 		this.pacientes.add(paciente);
+		System.out.println("Paciente agregado");
 	}
 	public void contratarMédico(Médico doctor) {
 		this.médicos.add(doctor);
+		System.out.println("Médico contratado");
 		}
 	public void despedirMédico(Médico doctor) {
 		this.médicos.remove(doctor);
+		System.out.println("Médico despedido");
+
 	}
 	public Hospital (String nombreHospital){
 		this.nombreHospital=nombreHospital;

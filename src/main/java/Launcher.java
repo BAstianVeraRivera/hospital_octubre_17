@@ -1,10 +1,10 @@
 public class Launcher {
 
-	public void main(String [] args) {
+	public static void main(String [] args) {
 		inicializar();
 	}
 
-	public void inicializar() {
+	public static void inicializar() {
 		Hospital hospital = new Hospital("Hospital Quepe");
 		Paciente paciente1= new Paciente("No es jugador de LOL",37,"Masculino","Cristiano Ronaldo", 20106947-5);
 		Médico doctor1 = new Médico("Título presencial", 29,"Masculino", "Alejandro Fernandez");
