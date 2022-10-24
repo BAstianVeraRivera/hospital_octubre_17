@@ -35,4 +35,12 @@ public class Médico {
 	public void setTítuloOnline(String títuloOnline) {
 		this.títuloOnline = títuloOnline;
 	}
+
+	public Médico (String títuloOnline, int edad, String sexo, String nombre){
+		this.títuloOnline=títuloOnline;
+		this.edad=edad;
+		this.sexo=sexo;
+		this.nombre=nombre;
+	}
+
 }

@@ -12,4 +12,39 @@ public class Hospital {
 	public void setNombreHospital(String nombreHospital) {
 		this.nombreHospital = nombreHospital;
 	}
+
+	public Paciente buscarPaciente(String nombre){
+		for(Paciente paciente:this.pacientes){
+			if(paciente.getNombre().equals(nombre)){
+				return paciente;
+			}
+		}
+		return null;
+	}
+
+	public Médico buscarMédico(String títuloOnline, int edad, String sexo, String nombre){
+		for(Médico medico:this.médicos){
+			if(medico.getNombre().equals(nombre)){
+				return medico;
+			}
+		}
+		return null;
+	}
+
+	public void agregarPaciente(Paciente paciente) {
+		this.pacientes.add(paciente);
+	}
+	public void contratarMédico(Médico doctor) {
+		this.médicos.add(doctor);
+		}
+	public void despedirMédico(Médico doctor) {
+		this.médicos.remove(doctor);
+	}
+	public Hospital (String nombreHospital){
+		this.nombreHospital=nombreHospital;
+	}
+
 }
+
+
+

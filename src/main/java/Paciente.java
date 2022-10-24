@@ -44,4 +44,13 @@ public class Paciente {
 	public void setJugadordeLOL(String jugadordeLOL) {
 		this.jugadordeLOL = jugadordeLOL;
 	}
+
+	public Paciente (String jugadordeLOL, int edad, String sexo, String nombre, int rut){
+		this.jugadordeLOL=jugadordeLOL;
+		this.edad=edad;
+		this.sexo=sexo;
+		this.nombre=nombre;
+		this.rut=rut;
+	}
+
 }
