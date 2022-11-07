@@ -45,10 +45,14 @@ public class Hospital {
 
 	}
 	public Hospital (String nombreHospital){
+
 		this.nombreHospital=nombreHospital;
 	}
 
 }
+
+
+
 
 
 

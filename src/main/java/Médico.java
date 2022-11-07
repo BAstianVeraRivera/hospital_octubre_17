@@ -42,5 +42,4 @@ public class Médico {
 		this.sexo=sexo;
 		this.nombre=nombre;
 	}
-
 }

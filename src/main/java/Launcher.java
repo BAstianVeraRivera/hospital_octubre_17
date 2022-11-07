@@ -12,6 +12,5 @@ public class Launcher {
 		hospital.agregarPaciente(paciente1);
 		hospital.contratarMédico(doctor1);
 		hospital.despedirMédico(doctor2);
-
 	}
 }
