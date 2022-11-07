@@ -13,6 +13,15 @@ public class Hospital {
 		this.nombreHospital = nombreHospital;
 	}
 
+	public ArrayList<Paciente> getPacientes() {
+		return pacientes;
+	}
+
+	public ArrayList<Médico> getMédicos() {
+		return médicos;
+	}
+
+
 	public Paciente buscarPaciente(String nombre){
 		for(Paciente paciente:this.pacientes){
 			if(paciente.getNombre().equals(nombre)){
